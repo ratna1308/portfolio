@@ -1,19 +1,19 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'ratnasonawaney5@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+    emailBody: 'Hi Ratna, I am reaching out to you because...',
 
     oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    // upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
+    { name: 'github', url: 'https://github.com/ratna1308/' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/ratna-sonawane-6851562a6' },
+    { name: 'facebook', url: 'https://www.facebook.com/share/19QdwWLB1e/' },
     { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
 ];
 

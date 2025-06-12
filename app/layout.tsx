@@ -29,8 +29,8 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata: Metadata = {
-    title: 'Portfolio - Tajmirul Islam',
-    description: 'Personal portfolio of Tajmirul Islam',
+    title: 'Portfolio - Ratna Sonawane',
+    description: 'Personal portfolio of Ratna Sonawane',
 };
 
 export default function RootLayout({
