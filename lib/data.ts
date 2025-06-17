@@ -6,7 +6,7 @@ export const GENERAL_INFO = {
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Ratna, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
+    oldPortfolio: 'https://www.instagram.com/rakhi_.1308',
     upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
 };
 
@@ -14,64 +14,33 @@ export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/ratna1308/' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/ratna-sonawane-6851562a6' },
     { name: 'facebook', url: 'https://www.facebook.com/share/19QdwWLB1e/' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    { name: 'instagram', url: GENERAL_INFO.oldPortfolio },
 ];
 
 export const MY_STACK = {
+    
+    backend: [
+        {
+            name: 'Python',
+            icon: '/logo/python.png',
+        },
+        {
+            name: 'C',
+            icon: '/logo/c1.png',
+        }
+    ],
     frontend: [
         {
-            name: 'Javascript',
-            icon: '/logo/js.png',
+            name: 'HTML',
+            icon: '/logo/html1.png',
         },
         {
-            name: 'Typescript',
-            icon: '/logo/ts.png',
-        },
-        {
-            name: 'React',
-            icon: '/logo/react.png',
-        },
-        {
-            name: 'Next.js',
-            icon: '/logo/next.png',
-        },
-        {
-            name: 'Redux',
-            icon: '/logo/redux.png',
-        },
-        {
-            name: 'Tailwind CSS',
-            icon: '/logo/tailwind.png',
-        },
-        {
-            name: 'GSAP',
-            icon: '/logo/gsap.png',
-        },
-        {
-            name: 'Frammer Motion',
-            icon: '/logo/framer-motion.png',
-        },
-        {
-            name: 'SASS',
-            icon: '/logo/sass.png',
+            name: 'CSS',
+            icon: '/logo/css.png',
         },
         {
             name: 'Bootstrap',
             icon: '/logo/bootstrap.svg',
-        },
-    ],
-    backend: [
-        {
-            name: 'Node.js',
-            icon: '/logo/node.png',
-        },
-        {
-            name: 'Nest.js',
-            icon: '/logo/nest.svg',
-        },
-        {
-            name: 'Express.js',
-            icon: '/logo/express.png',
         },
     ],
     database: [
@@ -81,15 +50,23 @@ export const MY_STACK = {
         },
         {
             name: 'PostgreSQL',
-            icon: '/logo/postgreSQL.png',
+            icon: '/logo/postgres.png',
         },
         {
             name: 'MongoDB',
-            icon: '/logo/mongodb.svg',
+            icon: '/logo/mongodb.png',
         },
         {
-            name: 'Prisma',
-            icon: '/logo/prisma.png',
+            name: 'MariaDB',
+            icon: '/logo/mariadb.png',
+        },
+        {
+            name: 'SQLite',
+            icon: '/logo/sql1.png',
+        },
+        {
+            name: 'InfluxDB',
+            icon: '/logo/influx.png',
         },
     ],
     tools: [
@@ -105,128 +82,169 @@ export const MY_STACK = {
             name: 'AWS',
             icon: '/logo/aws.png',
         },
+        {
+            name: 'Azure',
+            icon: '/logo/azure.png',
+        },
+        {
+            name: 'Postman API',
+            icon: '/logo/postmanapi.png',
+        }
     ],
 };
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'MTI Electronics',
-        slug: 'mti-electronics',
-        liveUrl: 'https://mti-electronics.vercel.app/',
-        year: 2025,
+        title: 'Kone PyMicroServices',
+        slug: 'pyMicroServices',
+        year: 2024,
         description: `
-      A complete agency portfolio platform built for MTI Electronics to showcase their services, blog content, and product offerings. <br/> <br/>
-      
-      Key Features:<br/>
-      <ul>
-        <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-        <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-        <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
-        <li>📱 Fully Responsive: Optimized for all device sizes</li>
-        <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
-      </ul><br/>
-      
-      Technical Highlights:
-      <ul>
-        <li>Implemented complex slider synchronization logic using Swiper.js</li>
-        <li>Customized Payload CMS admin panel for intuitive content management</li>
-        <li>Developed reusable UI components with shadcn for design consistency</li>
-        <li>Configured efficient data fetching strategies in Next.js</li>
-      </ul>
-      `,
+    Automated processes with Python, developed AWS microservices, and built CI/CD pipelines. Used Azure DevOps for project management, version control, and deployment. <br/><br/>
+
+    Key Features:<br/>
+    <ul>
+    <li>🧩 Microservices Architecture: Modular Python-based services for flexibility and scalability</li>
+    <li>☁️ Multi-Service AWS Deployment: Services deployed across ECS, Lambda, and EC2</li>
+    <li>🛡️ Load Balancing: Efficient traffic handling using AWS ALB</li>
+    <li>🔁 CI/CD Automation: Continuous integration and delivery with Azure DevOps pipelines</li>
+    <li>📊 Monitoring & Logs: Integrated cloud logs and dashboards for service health tracking</li>
+    </ul><br/>
+
+    Technical Highlights:
+    <ul>
+    <li>Python Script Automation: Implemented Python scripts to automate various processes, improving efficiency and reducing manual tasks.</li>
+    <li>AWS Microservices: Worked on designing, developing, and maintaining multiple AWS microservices to meet project requirements.</li>
+    <li>Developed reusable UI components with shadcn for design consistency</li>
+    <li>CI/CD Pipeline: Developed and maintained CI/CD pipelines to automate the software development and deployment processes.</li>
+    </ul>
+    `,
         role: `
-      Full-Stack Developer <br/>
-      Owned the entire development lifecycle:
-      <ul>
-        <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-        <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
-        <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-        <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
-        <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-        <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
-      </ul>
-      `,
+    Full-Stack Developer <br/>
+    Owned the entire development lifecycle:
+    <ul>
+    <li>✅ Backend Development: Created microservices using Python for scalable and modular application architecture.</li>
+    <li>🔧 CI/CD Pipeline: Implemented and managed CI/CD workflows using Azure DevOps for efficient automation.</li>
+    <li>☁️ AWS Deployment: Deployed services across AWS (ECS, Lambda, EC2) tailored to specific application needs.</li>
+    <li>🧭 Load Balancing: Configured Application Load Balancer (ALB) to ensure optimal traffic distribution and uptime.</li>
+    <li>🚀 Cloud Integration: Streamlined integration and deployment across cloud environments for smooth releases.</li>
+    </ul>
+    `,
         techStack: [
-            'Next.js',
-            'Payload CMS',
-            'Tailwind CSS',
-            'shadcn',
-            'Swiper.js',
-            'React Hook Form',
-            'Vercel',
+            'Python',
+            'AWS',
+            'Azure',
+            'postman',
+            'SFTP server',
+            'CICD',
+            'Kafka',
+            'Salesforce'
         ],
-        thumbnail: '/projects/thumbnail/mti-electronics.webp',
-        longThumbnail: '/projects/long/mti-electronics.webp',
+        thumbnail: '/projects/thumbnail/kone.png',
+        longThumbnail: '/projects/long/kone.png',
         images: [
-            '/projects/images/mti-electronics-1.webp',
-            '/projects/images/mti-electronics-2.webp',
+            '/projects/images/kone.png',
+            '/projects/images/kone2.png',
         ],
     },
     {
-        title: 'Epikcart',
-        slug: 'epikcart',
+        title: 'Team GPS',
+        slug: 'team-gps',
         techStack: [
-            'React',
-            'Redux',
-            'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
+            'Python',
+            'Django',
             'Api Integration',
+            'postgresSQL',
+            'Git',
+            'Github',
+            'SSO (Microsoft)',
         ],
-        thumbnail: '/projects/thumbnail/epikcart.jpg',
-        longThumbnail: '/projects/long/epikcart.jpg',
+        thumbnail: '/projects/thumbnail/team-main.png',
+        longThumbnail: '/projects/long/team-main.png',
         images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
+            '/projects/images/team-gps2.png',
+            '/projects/images/team-gps3.png',
+            '/projects/images/team-gps4.png',
+            '/projects/images/team-gps5.png',
+            '/projects/images/team-gps6.png',
         ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
+        liveUrl: 'https://app.team-gps.net/',
         year: 2023,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I: <br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-        - Integrated multi-language support with React i18n, including RTL handling.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
+        description: `
+        Team GPS is a comprehensive tool developed to enhance employee management, performance tracking, and feedback collection within organizations.<br/><br/>
+        It supports a wide range of features such as:
+        <ul>
+        <li>📊 Survey Builder: Create and manage custom surveys to gather actionable employee feedback</li>
+        <li>🎯 Goal Management: Track individual and team goals with measurable KPIs</li>
+        <li>📝 Meeting Management: Schedule, manage, and document meetings efficiently</li>
+        <li>🏆 Employee Recognition: Enable real-time feedback and reward systems</li>
+        <li>👥 User Management: Bulk user creation and SSO integration for seamless onboarding</li>
+        </ul>
+        `,
+        role: `
+        Python Backend Developer<br/>
+        Key responsibilities included:
+        <ul>
+        <li>⚙️ Developed RESTful APIs using Django for survey creation, goal tracking, and meeting modules</li>
+        <li>🔐 Integrated Single Sign-On (SSO) with Microsoft for secure and seamless user authentication</li>
+        <li>🛠️ Optimized database queries and models using PostgreSQL for performance and scalability</li>
+        <li>🔄 Collaborated with frontend and QA teams to ensure smooth feature integration and deployment</li>
+        <li>📁 Version control and code collaboration using Git and GitHub</li>
+        </ul>
+        `
     },
     {
-        title: 'Resume Roaster',
-        slug: 'resume-roaster',
+        title: 'Vodafone Automation',
+        slug: 'vodafone-automation',
         techStack: [
-            'GPT-4',
-            'Next.js',
-            'Postgressql',
-            'Prisma',
-            'Tailwind CSS',
+            'Python',
+            'PostgreSQL',
+            'Postman',
+            'Git',
+            'Jira'
         ],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
+        thumbnail: '/projects/thumbnail/vodafone1.png',
+        longThumbnail: '/projects/long/vodafone1.png',
         images: [
             '/projects/images/resume-roaster-1.png',
             '/projects/images/resume-roaster-2.png',
             '/projects/images/resume-roaster-3.png',
         ],
-        liveUrl: 'https://resume-roaster.vercel.app/',
-        year: 2023,
-        description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:<br/>
-        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
+        year: 2025,
+        description: `
+        Vodafone Services Automation is an internal backend automation project designed to replace manual service configurations with automated workflows.<br/><br/>
+
+        Previously, operations on circle-wise nodes were performed manually. This project centralized and automated those tasks through Python scripts, allowing the backend to automatically execute all necessary steps based on user-triggered actions.<br/><br/>
+
+        Key Features:
+        <ul>
+        <li>⚙️ End-to-End Service Automation: All manual backend processes fully automated with Python</li>
+        <li>📍 Circle-Based Node Execution: Dynamically processes configuration per Vodafone circle</li>
+        <li>🔁 Workflow Integration: Combined multiple service steps into a single triggerable operation</li>
+        <li>📦 Version Control: Scripts maintained and versioned for traceability and rollback</li>
+        <li>🚀 Scalable Design: Efficient handling of concurrent service automation requests</li>
+        </ul>
+        `,
+        role: `
+        Backend Developer<br/>
+        Responsibilities:
+        <ul>
+        <li>💻 Developed Python scripts to automate circle-wise node operations and service tasks</li>
+        <li>🔗 Integrated previously manual steps into seamless backend automation workflows</li>
+        <li>🛠️ Collaborated with cross-functional teams to define use cases and automation flows</li>
+        <li>🚨 Handled script optimization, error handling, and performance tuning</li>
+        <li>🔍 Used Git for version control and Jira for task tracking and collaboration</li>
+        </ul>
+        `
     },
     {
-        title: 'Real Estate',
-        slug: 'property-pro',
+        title: 'Fraud Detection',
+        slug: 'anamoly-detection',
         techStack: [
-            'React.js',
-            'Redux',
-            'Tailwind CSS',
-            'React i18n',
-            'Framer Motion',
+            'Python',
+            'Jira',
+            'Git',
+            'Github',
+            'Anamoly',
         ],
         thumbnail: '/projects/thumbnail/property-pro.jpg',
         longThumbnail: '/projects/long/property-pro.jpg',
@@ -263,46 +281,18 @@ export const PROJECTS: IProject[] = [
             'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
         role: ``,
     },
-    {
-        title: 'devLinks',
-        slug: 'devLinks',
-        techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
-        images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
-        ],
-        sourceCode: 'https://github.com/Tajmirul/devsLink',
-        liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
-        year: 2023,
-        description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
-
-            I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
-        role: ``,
-    },
 ];
+
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Software Engineer (Frontend)',
-        company: 'Strativ AB',
-        duration: 'Dec 2024 - Present',
+        title: 'Software Engineer (backend)',
+        company: 'Koli Infotech PVT LTD.',
+        duration: 'Feb 2024 - Present',
     },
     {
-        title: 'Frontend Developer',
-        company: 'Epikcoders',
-        duration: 'Oct 2023 - Nov 2024',
-    },
-    {
-        title: 'FRONTEND ENGINEER',
-        company: 'Anchorblock Technology',
-        duration: 'Oct 2022 - Sep 2023',
-    },
-    {
-        title: 'Frontend Developer (Part-time)',
-        company: 'Branex IT',
-        duration: 'Jan 2022 - Oct 2022',
-    },
+        title: 'Software Engineer (backend)',
+        company: '7EDGE',
+        duration: 'May 2022 - Fev 2024',
+    }
 ];
