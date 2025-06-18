@@ -22,73 +22,73 @@ export const MY_STACK = {
     backend: [
         {
             name: 'Python',
-            icon: '/logo/python.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
         },
         {
             name: 'C',
-            icon: '/logo/c1.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg',
         }
     ],
     frontend: [
         {
             name: 'HTML',
-            icon: '/logo/html1.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
         },
         {
             name: 'CSS',
-            icon: '/logo/css.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
         },
         {
             name: 'Bootstrap',
-            icon: '/logo/bootstrap.svg',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg',
         },
     ],
     database: [
         {
             name: 'MySQL',
-            icon: '/logo/mysql.svg',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg',
         },
         {
             name: 'PostgreSQL',
-            icon: '/logo/postgres.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg',
         },
         {
             name: 'MongoDB',
-            icon: '/logo/mongodb.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg',
         },
         {
             name: 'MariaDB',
-            icon: '/logo/mariadb.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original.svg',
         },
         {
             name: 'SQLite',
-            icon: '/logo/sql1.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg',
         },
         {
             name: 'InfluxDB',
-            icon: '/logo/influx.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/influxdb/influxdb-original.svg',
         },
     ],
     tools: [
         {
             name: 'Git',
-            icon: '/logo/git.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
         },
         {
             name: 'Docker',
-            icon: '/logo/docker.svg',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg',
         },
         {
             name: 'AWS',
-            icon: '/logo/aws.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
         },
         {
             name: 'Azure',
-            icon: '/logo/azure.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg',
         },
         {
             name: 'Postman API',
-            icon: '/logo/postmanapi.png',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg',
         }
     ],
 };
@@ -99,36 +99,36 @@ export const PROJECTS: IProject[] = [
         slug: 'pyMicroServices',
         year: 2024,
         description: `
-    Automated processes with Python, developed AWS microservices, and built CI/CD pipelines. Used Azure DevOps for project management, version control, and deployment. <br/><br/>
+        Automated processes with Python, developed AWS microservices, and built CI/CD pipelines. Used Azure DevOps for project management, version control, and deployment. <br/><br/>
 
-    Key Features:<br/>
-    <ul>
-    <li>🧩 Microservices Architecture: Modular Python-based services for flexibility and scalability</li>
-    <li>☁️ Multi-Service AWS Deployment: Services deployed across ECS, Lambda, and EC2</li>
-    <li>🛡️ Load Balancing: Efficient traffic handling using AWS ALB</li>
-    <li>🔁 CI/CD Automation: Continuous integration and delivery with Azure DevOps pipelines</li>
-    <li>📊 Monitoring & Logs: Integrated cloud logs and dashboards for service health tracking</li>
-    </ul><br/>
+        Key Features:<br/>
+        <ul>
+        <li>🧩 Microservices Architecture: Modular Python-based services for flexibility and scalability</li>
+        <li>☁️ Multi-Service AWS Deployment: Services deployed across ECS, Lambda, and EC2</li>
+        <li>🛡️ Load Balancing: Efficient traffic handling using AWS ALB</li>
+        <li>🔁 CI/CD Automation: Continuous integration and delivery with Azure DevOps pipelines</li>
+        <li>📊 Monitoring & Logs: Integrated cloud logs and dashboards for service health tracking</li>
+        </ul><br/>
 
-    Technical Highlights:
-    <ul>
-    <li>Python Script Automation: Implemented Python scripts to automate various processes, improving efficiency and reducing manual tasks.</li>
-    <li>AWS Microservices: Worked on designing, developing, and maintaining multiple AWS microservices to meet project requirements.</li>
-    <li>Developed reusable UI components with shadcn for design consistency</li>
-    <li>CI/CD Pipeline: Developed and maintained CI/CD pipelines to automate the software development and deployment processes.</li>
-    </ul>
-    `,
+        Technical Highlights:
+        <ul>
+        <li>Python Script Automation: Implemented Python scripts to automate various processes, improving efficiency and reducing manual tasks.</li>
+        <li>AWS Microservices: Worked on designing, developing, and maintaining multiple AWS microservices to meet project requirements.</li>
+        <li>Developed reusable UI components with shadcn for design consistency</li>
+        <li>CI/CD Pipeline: Developed and maintained CI/CD pipelines to automate the software development and deployment processes.</li>
+        </ul>
+        `,
         role: `
-    Full-Stack Developer <br/>
-    Owned the entire development lifecycle:
-    <ul>
-    <li>✅ Backend Development: Created microservices using Python for scalable and modular application architecture.</li>
-    <li>🔧 CI/CD Pipeline: Implemented and managed CI/CD workflows using Azure DevOps for efficient automation.</li>
-    <li>☁️ AWS Deployment: Deployed services across AWS (ECS, Lambda, EC2) tailored to specific application needs.</li>
-    <li>🧭 Load Balancing: Configured Application Load Balancer (ALB) to ensure optimal traffic distribution and uptime.</li>
-    <li>🚀 Cloud Integration: Streamlined integration and deployment across cloud environments for smooth releases.</li>
-    </ul>
-    `,
+        Full-Stack Developer <br/>
+        Owned the entire development lifecycle:
+        <ul>
+        <li>✅ Backend Development: Created microservices using Python for scalable and modular application architecture.</li>
+        <li>🔧 CI/CD Pipeline: Implemented and managed CI/CD workflows using Azure DevOps for efficient automation.</li>
+        <li>☁️ AWS Deployment: Deployed services across AWS (ECS, Lambda, EC2) tailored to specific application needs.</li>
+        <li>🧭 Load Balancing: Configured Application Load Balancer (ALB) to ensure optimal traffic distribution and uptime.</li>
+        <li>🚀 Cloud Integration: Streamlined integration and deployment across cloud environments for smooth releases.</li>
+        </ul>
+        `,
         techStack: [
             'Python',
             'AWS',
@@ -205,9 +205,8 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/vodafone1.png',
         longThumbnail: '/projects/long/vodafone1.png',
         images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
+            '/projects/images/voda1.jpg',
+            '/projects/images/voda2.jpg',
         ],
         year: 2025,
         description: `
@@ -238,7 +237,7 @@ export const PROJECTS: IProject[] = [
     },
     {
         title: 'Fraud Detection',
-        slug: 'anamoly-detection',
+        slug: 'fraud-detection',
         techStack: [
             'Python',
             'Jira',
@@ -246,41 +245,40 @@ export const PROJECTS: IProject[] = [
             'Github',
             'Anamoly',
         ],
-        thumbnail: '/projects/thumbnail/property-pro.jpg',
-        longThumbnail: '/projects/long/property-pro.jpg',
+        thumbnail: '/projects/thumbnail/transcation2.png',
+        longThumbnail: '/projects/long/transcation2.png',
         images: [
-            '/projects/images/property-pro-1.png',
-            '/projects/images/property-pro-2.png',
-            '/projects/images/property-pro-3.png',
+            '/projects/images/transcation1.png',
+            '/projects/images/transcation3.png',
+            '/projects/images/transcation4.png',
         ],
-        liveUrl: 'https://demo.propertypro.siphertech.com/',
         year: 2023,
-        description:
-            'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
-        role: `As the frontend developer, I:<br/>
-        - Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.<br/>
-        - Integrated dynamic state management for efficient handling of property data.<br/>
-        - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
-        - Enhanced user interaction with animations and transitions using Framer Motion.`,
-    },
-    {
-        title: 'Consulting Finance',
-        slug: 'crenotive',
-        techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
-        thumbnail: '/projects/thumbnail/consulting-finance.jpg',
-        longThumbnail: '/projects/long/consulting-finance.jpg',
-        images: [
-            '/projects/images/consulting-finance-1.png',
-            '/projects/images/consulting-finance-2.png',
-            '/projects/images/consulting-finance-3.png',
-        ],
-        sourceCode: 'https://github.com/Tajmirul/crenotive',
-        liveUrl: 'https://crenotive.netlify.app/',
-        year: 2023,
-        description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
-        role: ``,
-    },
+        description: `
+        Fraud Detection in Online Transactions is a backend development project in the finance domain, focused on enhancing transaction security through structured Python-based systems.<br/><br/>
+
+        The system processes and validates large volumes of transaction data, identifying anomalies through rule-based logic and backend checks. The project emphasized clean data handling, robust API development, and reliable backend workflows to support fraud detection infrastructure.<br/><br/>
+
+        Key Features:
+        <ul>
+        <li>🔐 Rule-Based Fraud Detection: Backend logic for flagging suspicious transactions</li>
+        <li>📊 Data Handling: Securely processes and validates transaction data</li>
+        <li>⚙️ API Development: Python-based APIs to expose fraud detection functionality</li>
+        <li>🧹 Data Preprocessing: Cleansing and verifying integrity of transaction data</li>
+        <li>📦 Modular Design: Maintainable, scalable backend architecture</li>
+        </ul>
+        `,
+        role: `
+        Backend Developer<br/>
+        Responsibilities:
+        <ul>
+        <li>💻 Designed and developed Python-based backend services for fraud detection workflows</li>
+        <li>🔗 Built APIs to expose backend functionality for integration with frontend or other systems</li>
+        <li>🧹 Handled data preprocessing, cleansing, and validation routines</li>
+        <li>🛠️ Ensured performance, reliability, and scalability of backend systems</li>
+        <li>📁 Used Git for version control and followed collaborative development practices</li>
+        </ul>
+        `
+    }
 ];
 
 
@@ -293,6 +291,6 @@ export const MY_EXPERIENCE = [
     {
         title: 'Software Engineer (backend)',
         company: '7EDGE',
-        duration: 'May 2022 - Fev 2024',
+        duration: 'May 2022 - Feb 2024',
     }
 ];
