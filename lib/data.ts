@@ -161,8 +161,6 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/team-main.png',
         longThumbnail: '/projects/long/team-main.png',
         images: [
-            '/projects/images/team-gps2.png',
-            '/projects/images/team-gps3.png',
             '/projects/images/team-gps4.png',
             '/projects/images/team-gps5.png',
             '/projects/images/team-gps6.png',
