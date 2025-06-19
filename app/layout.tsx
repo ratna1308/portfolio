@@ -6,7 +6,15 @@ import 'lenis/dist/lenis.css';
 import './globals.css';
 import Footer from '@/components/Footer';
 import ScrollProgressIndicator from '@/components/ScrollProgressIndicator';
+import FloatingShapesBackground from '@/components/FloatingShapesBackground';
 import ParticleBackground from '@/components/ParticleBackground';
+import GridDotsBackground from '@/components/GridDotsBackground';
+import WaveGradientBackground from '@/components/WaveGradientBackground';
+import CosmicNebulaBackground from '@/components/CosmicNebulaBackground';
+import ParticleNetworkBackground from '@/components/ParticleNetworkBackground';
+import IsometricGridBackground from '@/components/IsometricGridBackground';
+import MatrixRainBackground from '@/components/MatrixRainBackground';
+import HolographicGridBackground from '@/components/HolographicGridBackground';
 import Navbar from '@/components/Navbar';
 import CustomCursor from '@/components/CustomCursor';
 import Preloader from '../components/Preloader';
@@ -77,7 +85,15 @@ export default function RootLayout({
                     <CustomCursor />
                     <Preloader />
                     <ScrollProgressIndicator />
-                    <ParticleBackground />
+                    {/* <ParticleBackground /> */}
+                    {/* <FloatingShapesBackground /> */}
+                    {/* <WaveGradientBackground /> */}
+                    {/* <GridDotsBackground /> */}
+                    {/* <CosmicNebulaBackground /> */}
+                    {/* <ParticleNetworkBackground /> */}
+                    {/* <IsometricGridBackground /> */}
+                    {/* <MatrixRainBackground /> */}
+                    <HolographicGridBackground />
                     <StickyEmail />
                 </ReactLenis>
             </body>
