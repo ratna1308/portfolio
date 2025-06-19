@@ -25,22 +25,9 @@ export interface IProject {
     liveUrl?: string;
     sourceCode?: string;
 
-    thumbnail: {
-        url: string;
-        width: number;
-        height: number;
-    };
-    longThumbnail: {
-        url: string;
-        width: number;
-        height: number;
-    };
-    images: Array<{
-        url: string;
-        width: number;
-        height: number;
-        alt?: string;
-    }>;
+    thumbnail: string;  
+    longThumbnail: string;
+    images: string[]; 
 }
 
 
