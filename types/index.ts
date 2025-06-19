@@ -21,10 +21,18 @@ export interface IProject {
     description: string;
     role: string;
     techStack: string[];
-    thumbnail: string;
-    longThumbnail: string;
-    images: string[];
     slug: string;
     liveUrl?: string;
     sourceCode?: string;
+
+    thumbnail: string;  
+    longThumbnail: string;
+    images: string[]; 
+}
+
+
+export interface TechItem {
+    name: string;
+    icon: string; 
+    deviconClass?: string; 
 }
