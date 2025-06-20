@@ -13,10 +13,6 @@ Please also note that I did not build this site with the intention of it being a
 
 If you like my work, give it a star⭐.
 
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [me.toinfinite.dev](https://www.me.toinfinite.dev/). Thanks!
-
 ## 🛠 Installation & Set Up
 
 First, run the development server:

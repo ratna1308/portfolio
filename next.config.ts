@@ -5,3 +5,14 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   output: 'export',
+//   basePath: '/ratna-portfolio',
+//   assetPrefix: '/ratna-portfolio/',
+// };
+
+// module.exports = nextConfig;
