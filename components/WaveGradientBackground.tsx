@@ -17,7 +17,6 @@ export default function WaveGradientBackground() {
     for (let i = 0; i < 4; i++) {
       const wave = document.createElement('div');
       const color = colors[i % colors.length];
-      const amplitude = 50 + Math.random() * 100;
       const duration = 20 + Math.random() * 10;
       
       wave.style.position = 'absolute';
