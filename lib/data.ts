@@ -6,15 +6,12 @@ export const GENERAL_INFO = {
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Ratna, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.instagram.com/rakhi_.1308',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    upworkProfile: 'https://www.linkedin.com/in/ratna-sonawane-6851562a6',
 };
 
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/ratna1308/' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/ratna-sonawane-6851562a6' },
-    { name: 'facebook', url: 'https://www.facebook.com/share/19QdwWLB1e/' },
-    { name: 'instagram', url: GENERAL_INFO.oldPortfolio },
 ];
 
 export const MY_STACK = {
