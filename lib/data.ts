@@ -6,15 +6,12 @@ export const GENERAL_INFO = {
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Ratna, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.instagram.com/rakhi_.1308',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    upworkProfile: 'https://www.linkedin.com/in/ratna-sonawane-6851562a6',
 };
 
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/ratna1308/' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/ratna-sonawane-6851562a6' },
-    { name: 'facebook', url: 'https://www.facebook.com/share/19QdwWLB1e/' },
-    { name: 'instagram', url: GENERAL_INFO.oldPortfolio },
 ];
 
 export const MY_STACK = {
@@ -139,8 +136,8 @@ export const PROJECTS: IProject[] = [
             'Kafka',
             'Salesforce'
         ],
-        thumbnail: '/projects/thumbnail/kone.png',
-        longThumbnail: '/projects/long/kone.png',
+        thumbnail: '/projects/thumbnail/awsk1.png',
+        longThumbnail: '/projects/long/awsk1.png',
         images: [
             '/projects/images/kone.png',
             '/projects/images/kone2.png',
@@ -158,11 +155,11 @@ export const PROJECTS: IProject[] = [
             'Github',
             'SSO (Microsoft)',
         ],
-        thumbnail: '/projects/thumbnail/kone.png', 
-        longThumbnail: '/projects/long/kone.png',  
+        thumbnail: '/projects/thumbnail/team-gps7.png', 
+        longThumbnail: '/projects/long/team-gps7.png',  
         images: [
-        '/projects/images/kone.png',
-        '/projects/images/kone2.png',
+        '/projects/images/team-gps4.png',
+        '/projects/images/team-gps5.png',
         ],
         liveUrl: 'https://app.team-gps.net/',
         year: 2023,
@@ -199,8 +196,8 @@ export const PROJECTS: IProject[] = [
             'Git',
             'Jira'
         ],
-        thumbnail: '/projects/thumbnail/vodafone1.png',
-        longThumbnail: '/projects/long/vodafone1.png',
+        thumbnail: '/projects/thumbnail/vi.jpg',
+        longThumbnail: '/projects/long/vi.jpg',
         images: [
             '/projects/images/voda1.jpg',
             '/projects/images/voda2.jpg',
@@ -242,8 +239,8 @@ export const PROJECTS: IProject[] = [
             'Github',
             'Anamoly',
         ],
-        thumbnail: '/projects/thumbnail/transcation2.png',
-        longThumbnail: '/projects/long/transcation2.png',
+        thumbnail: '/projects/thumbnail/fraud.jpg',
+        longThumbnail: '/projects/long/fraud.jpg',
         images: [
             '/projects/images/transcation1.png',
             '/projects/images/transcation3.png',

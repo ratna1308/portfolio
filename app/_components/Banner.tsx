@@ -46,13 +46,8 @@ const Banner = () => {
                         <br /> <span className="ml-4">DEVELOPER</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
-                        Hi! I&apos;m{' '}
-                        <span className="font-medium text-foreground">
-                            Ratna
-                        </span>
-                        . A creative Backend Developer with 3+ years of
-                        experience in building high-performance, scalable, and
-                        responsive web solutions.
+                        Turning ideas into powerful backend systems.
+                        With 3+ years in Python and cloud engineering, I craft scalable, secure APIs that keep businesses moving fast.
                     </p>
                     <Button
                         as="link"
@@ -85,7 +80,7 @@ const Banner = () => {
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            10K+
+                            7.5K+
                         </h5>
                         <p className="text-muted-foreground">Hours Worked</p>
                     </div>

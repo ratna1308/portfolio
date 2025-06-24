@@ -32,10 +32,12 @@ const Footer = async () => {
     return (
         <footer className="text-center pb-5" id="contact">
             <div className="container">
-                <p className="text-lg">Have a project in mind?</p>
+                <p className="text-lg font-semibold">Let’s build something impactful.</p>
+                <p className="text-xl sm:text-2xl mt-3"></p>
+                    📧 <span className="font-medium">Reach out:</span>{' '}
                 <a
                     href={`mailto:${GENERAL_INFO.email}`}
-                    className="text-3xl sm:text-4xl font-anton inline-block mt-5 mb-10 hover:underline"
+                    className="underline hover:text-blue-600 transition-colors duration-200"
                 >
                     {GENERAL_INFO.email}
                 </a>
