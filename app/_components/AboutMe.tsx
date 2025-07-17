@@ -65,16 +65,16 @@ const AboutMe = () => {
                 <div className="grid md:grid-cols-12 mt-9">
                     <div className="md:col-span-5">
                         <p className="text-5xl slide-up-and-fade">
-                            Hi, I&apos;m Ratna.
+                            I&apos;m Ratna
                         </p>
                     </div>
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                IT professional with strong expertise in Python, Django, Flask, FastAPI, and OOP. Skilled in AWS, SQL, and database management.
+                                A backend engineer who thrives on solving complex problems.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                I specialize in building scalable, high-performance APIs and backend systems that align with business goals and deliver real-world impact.
+                                My journey began with curiosity about how things work and turned into a career designing resilient APIs and systems for real-world scale.
                             </p>
                         </div>
                     </div>
