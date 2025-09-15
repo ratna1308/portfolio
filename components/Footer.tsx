@@ -25,7 +25,6 @@ const Footer = async () => {
         forks_count = data.forks_count;
     } catch (error) {
         console.error('Failed to fetch GitHub repo stats:', error);
-        // You could also optionally show a fallback message or hide the stats
     }
 
     return (
@@ -33,7 +32,7 @@ const Footer = async () => {
             <div className="container">
                 <p className="text-lg font-semibold">Let’s build something impactful.</p>
                 <p className="text-xl sm:text-2xl mt-3"></p>
-                    📧 <span className="font-medium">Reach out:</span>{' '}
+                📧 <span className="font-medium">Reach out:</span>{' '}
                 <a
                     href={`mailto:${GENERAL_INFO.email}`}
                     className="underline hover:text-blue-600 transition-colors duration-200"
@@ -41,7 +40,12 @@ const Footer = async () => {
                     {GENERAL_INFO.email}
                 </a>
 
-                <div className="">
+                {/* ✅ Show GitHub repo stats */}
+                <div className="mt-3 text-sm text-muted-foreground">
+                    ⭐ {stargazers_count} Stars · 🍴 {forks_count} Forks
+                </div>
+
+                <div className="mt-2">
                     <a
                         href="https://github.com/ratna1308/portfolio"
                         target="_blank"
