@@ -1,3 +1,4 @@
+// components/Footer.tsx
 import { GENERAL_INFO } from '@/lib/data';
 
 const Footer = () => {
@@ -20,7 +21,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="leading-none text-muted-foreground hover:underline hover:text-white"
           >
-            Design & built by Ratna Sonawane
+            Design &amp; built by Ratna Sonawane
           </a>
         </div>
       </div>
