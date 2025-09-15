@@ -1,63 +1,31 @@
 import { GENERAL_INFO } from '@/lib/data';
 
-interface RepoStats {
-    stargazers_count: number;
-    forks_count: number;
-}
+const Footer = () => {
+  return (
+    <footer className="text-center pb-5" id="contact">
+      <div className="container">
+        <p className="text-lg font-semibold">Let’s build something impactful.</p>
+        📧 <span className="font-medium">Reach out:</span>{' '}
+        <a
+          href={`mailto:${GENERAL_INFO.email}`}
+          className="underline hover:text-blue-600 transition-colors duration-200"
+        >
+          {GENERAL_INFO.email}
+        </a>
 
-const Footer = async () => {
-    let stargazers_count = 0;
-    let forks_count = 0;
-
-    try {
-        const res = await fetch('https://api.github.com/repos/ratna1308/portfolio', {
-            next: {
-                revalidate: 60 * 60, // 1 hour
-            },
-        });
-
-        if (!res.ok) {
-            throw new Error(`GitHub API error: ${res.status}`);
-        }
-
-        const data = (await res.json()) as RepoStats;
-        stargazers_count = data.stargazers_count;
-        forks_count = data.forks_count;
-    } catch (error) {
-        console.error('Failed to fetch GitHub repo stats:', error);
-    }
-
-    return (
-        <footer className="text-center pb-5" id="contact">
-            <div className="container">
-                <p className="text-lg font-semibold">Let’s build something impactful.</p>
-                <p className="text-xl sm:text-2xl mt-3"></p>
-                📧 <span className="font-medium">Reach out:</span>{' '}
-                <a
-                    href={`mailto:${GENERAL_INFO.email}`}
-                    className="underline hover:text-blue-600 transition-colors duration-200"
-                >
-                    {GENERAL_INFO.email}
-                </a>
-
-                {/* ✅ Show GitHub repo stats */}
-                <div className="mt-3 text-sm text-muted-foreground">
-                    ⭐ {stargazers_count} Stars · 🍴 {forks_count} Forks
-                </div>
-
-                <div className="mt-2">
-                    <a
-                        href="https://github.com/ratna1308/portfolio"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="leading-none text-muted-foreground hover:underline hover:text-white"
-                    >
-                        Design & built by Ratna Sonawane
-                    </a>
-                </div>
-            </div>
-        </footer>
-    );
+        <div className="mt-2">
+          <a
+            href="https://github.com/ratna1308/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="leading-none text-muted-foreground hover:underline hover:text-white"
+          >
+            Design & built by Ratna Sonawane
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
